@@ -41,7 +41,7 @@
             @Html.DisplayFor(modelItem => item.Phone)
         </td>
         <td>
-            @Html.ActionLink("Details", "DetailsByEmail", new { email = item.Email })
+            @Html.ActionLink("Details", "DetailsByEmail", new { id = item.Email })
         </td>
     </tr>
 }
